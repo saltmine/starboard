@@ -3,7 +3,7 @@
 
   "name": "Keep It",
   "description": "Keep It button for keeping to collections",
-  "version": "0.0.1",
+  "version": "0.9.0",
 
   "background": {
     "persistent": false,

@@ -10,5 +10,5 @@
 * create new iframe instead of new window after picture select
 
 ##### Version
-* 0.0.1
+* 0.9.0
  * Created Chrome extension
