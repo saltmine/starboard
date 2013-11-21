@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Keep It",
+  "description": "Keep It button for keeping to collections",
+  "version": "0.0.1",
+
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "http://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "images/hex_chrome_green.png",
+    "default_title": "Keep It"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+K",
+        "mac": "Command+K"
+      }
+    }
+  }
+}
