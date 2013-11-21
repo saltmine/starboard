@@ -1,7 +1,5 @@
 # Keepmark Chrome extension
 
----
-
 #### Features
 * Click for activation
 * Hotkey: `Command+K`
