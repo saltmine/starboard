@@ -7,7 +7,8 @@
 #### TODO's
 * Build makefile
 * Add Google Analytics
-* create new iframe instead of new window after picture select
+* Create new iframe instead of new window after picture select
+* Add auto updating to chrome store
 
 ##### Version
 * 0.9.0
