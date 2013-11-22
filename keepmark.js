@@ -937,11 +937,13 @@
       ) {
         productStr += '&canonical_url=' + encodeURIComponent(canonicalLinkEl.href);
       }
-
+      console.log(window.screen.height, window.screen.width)
+      var height = (window.screen.height / 2) - (390 / 2);
+      var width = (window.screen.width / 2) - (640 / 2);
       window.open(
         script_host_unsecure + '/keepmark/?' + productStr,
         'KeepMark',
-        'status=0,directories=0,location=0,resizable=0,menubar=0,scrollbars=0,width=640,height=390,toolbar=0'
+        'status=0,directories=0,location=0,resizable=0,menubar=0,scrollbars=0,width=640,height=390,toolbar=0,top='+ height+', left='+ width
       );
     }
   };
