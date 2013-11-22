@@ -11,5 +11,7 @@
 * Add auto updating to chrome store
 
 ##### Version
+* 0.9.1
+ * Fixed the extension icon
 * 0.9.0
  * Created Chrome extension
