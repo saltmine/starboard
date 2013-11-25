@@ -3,7 +3,8 @@
 
   "name": "Keep It",
   "description": "Keep It button for Keep.com",
-  "version": "0.9.2",
+  "version": "0.9.3",
+  "author": "Keep.com",
   "icons": {
     "128":"images/favicon_chrome.png"
   },
@@ -12,9 +13,7 @@
     "persistent": false,
     "scripts": ["background.js"]
   },
-  "permissions": [
-    "http://*/*"
-  ],
+  "permissions": [],
   "browser_action": {
     "default_icon": "images/favicon_chrome.png",
     "default_title": "Keep It"
