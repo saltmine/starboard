@@ -12,6 +12,8 @@
 * Create communication between the Keep Chrome app & extension
 
 ##### Version
+* 0.9.4
+ * Guess what, I have to ask for that data after all
 * 0.9.3
  * Stoped asking for some much data
 * 0.9.2
