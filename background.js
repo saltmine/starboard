@@ -1,13 +1,19 @@
+function getKeepmark() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://keep.com/keepmark_js", true);
+  xhr.onreadystatechange = function(resp) {
+    if (xhr.readyState == 4) {
+      chrome.tabs.executeScript(null, {code: xhr.responseText});
+    }
+  }
+  xhr.send();
+}
+
 chrome.browserAction.onClicked.addListener(function(tabs) {
-  injectDetails = {
-    "file": "keepmark.js"
-  };
-  chrome.tabs.executeScript(injectDetails);
+  getKeepmark();
 });
+
 chrome.commands.onCommand.addListener(function(command) {
   console.log('onCommand event received for message: ', command);
-  injectDetails = {
-    "file": "keepmark.js"
-  };
-  chrome.tabs.executeScript(injectDetails);
+  getKeepmark();
 });
