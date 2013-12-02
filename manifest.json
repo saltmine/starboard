@@ -6,7 +6,8 @@
   "version": "0.9.5",
   "author": "Keep.com",
   "icons": {
-    "128":"images/favicon_chrome.png"
+    "128":"images/favicon_chrome.png",
+    "32": "images/favicon_retina.png"
   },
 
   "background": {
