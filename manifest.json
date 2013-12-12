@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Keep It",
+  "name": "Keep Shopping",
   "description": "Keep It button for Keep.com",
-  "version": "0.9.5",
+  "version": "1.0.0",
   "author": "Keep.com",
   "icons": {
     "128":"images/favicon_chrome.png",
@@ -23,7 +23,7 @@
   ],
   "browser_action": {
     "default_icon": "images/favicon_chrome.png",
-    "default_title": "Keep It"
+    "default_title": "Keep Shopping"
   },
   "commands": {
     "_execute_browser_action": {

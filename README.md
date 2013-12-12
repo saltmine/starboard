@@ -12,8 +12,11 @@
 * Create communication between the Keep Chrome app & extension
 
 ##### Version
+* 1.0.0
+ * Chrome extension goes live
+ * Name update
 * 0.9.5
- * Loading keepmark js on teh fly from server
+ * Loading keepmark js on the fly from server
   * Big thanks to Brian 
 * 0.9.4
  * Guess what, I have to ask for that data after all
