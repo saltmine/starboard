@@ -1,6 +1,6 @@
 function getKeepmark() {
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "https://keep.com/keepmark_js", true);
+  xhr.open("GET", "https://keepshopping.com/keepmark_js", true);
   xhr.onreadystatechange = function(resp) {
     if (xhr.readyState == 4) {
       chrome.tabs.executeScript(null, {code: xhr.responseText});
